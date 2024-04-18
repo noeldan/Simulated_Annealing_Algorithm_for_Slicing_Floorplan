@@ -8,8 +8,6 @@ The program has 2 program files.
 input_file.txt file contains input node data.
 
 
-
-
 Compiling the program:
 ----------------------
 prompt$ g++ -o Sim-Ann-FP Sim-Ann-FP.cpp Sim-Ann-FP.h
@@ -21,16 +19,11 @@ Output "Sim-Ann-FP" will be created on successful compilation.
 In which case "a.out" will be the executable file.)
 
 
-
-
 Executing the program:
 ----------------------
 prompt$ ./Sim-Ann-FP
 
 The above command executes the program.
-
-
-
 
 Output:
 --------
@@ -46,7 +39,6 @@ Enter input File =
 
 Enter the input file.
 
-
 Output as given should appear
 
 ################################################################################
@@ -54,12 +46,10 @@ Output as given should appear
 
 Enter input File = input_file.txt
 
-
 ********************************Topology 1********************************
 
 Initial Topology-1 :- 12V3V4V5V6V7V8V9VaVbVcVdVeVfVgViVjVkVlV
 Inital Area - 287.521
-
 
 Simulated Annealing Process
 ----------------------------
@@ -73,7 +63,6 @@ Optimized Area - 258.071
 Topology-2 :- 12H3H4H5H6H7H8H9HaHbHcHdHeHfHgHiHjHkHlH
 Area - 287.521
 
-
 Simulated Annealing Process
 ----------------------------
 Optimized Topology-2 :- jaV15cHVH39diHVHVleVH86kH274bgVHVHVHVfV
@@ -86,7 +75,6 @@ Optimized Area - 244.86
 Topology3  :- 213546H7VHVa8V9HcVHgHibdHkVHfeHVlHVjHVH
 Area - 331.637
 
-
 Simulated Annealing Process
 ----------------------------
 Optimized Topology-3 :- 327546jVHVHac9HV18HVHgielHVHkdbHVHVfVHV
@@ -96,5 +84,3 @@ Optimized Area - 272.364
 
 --------------------------------------------------------------------------------
 ################################################################################
-
-
