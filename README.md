@@ -11,11 +11,11 @@ Name your routine as cost() that takes a NPE as its input.
 Input Formats: The input file consists of:
 
 1. Names, areas and aspect ratios of the modules. They are of the form:
-1)  13.60 0.52
-2)  3.69 0.30
-3)  16.71 0.50
-4)  1.87 0.35
-5)  5.29 1.15
+1  13.60 0.52
+2  3.69 0.30
+3  16.71 0.50
+4  1.87 0.35
+5  5.29 1.15
 
 The i-th row provides information of module i, for all i = 1, 2… n.
 It consists of (Ni, Ai, Ri) where Ni is the module name, Ai is the area of module i and Ri is the aspect ratio of module i. For example, module 2 has area 3.69 and an aspect ratio of 0.3.
