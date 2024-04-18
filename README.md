@@ -52,15 +52,23 @@ The input consists of two parts:
 More detailed description of parameters.
 1. Parameters
 They are of the following form:
-.2.0     (* chipratio *)
-.10      (* nmoves *)
-.0.85    (* ratio *)
-.-1      (* t0 *)
-.0.005   (* lambdatf *)
-.3       (* iseed *)
-.6       (* n *)
-.0.99    (* P *)
-.0.001   (* epsilon *)
+2.0     (* chipratio *)
+
+10      (* nmoves *)
+
+0.85    (* ratio *)
+
+-1      (* t0 *)
+
+0.005   (* lambdatf *)
+
+3       (* iseed *)
+
+6       (* n *)
+
+0.99    (* P *)
+
+0.001   (* epsilon *)
 
 chipratio: Final chip ratio must be between 1/chipratio and chipratio; chipratio must be greater than 1.0
 
