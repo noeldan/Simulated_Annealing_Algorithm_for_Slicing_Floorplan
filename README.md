@@ -13,9 +13,13 @@ Input Formats: The input file consists of:
 1. Names, areas and aspect ratios of the modules. They are of the form:
 
 1  13.60 0.52
+
 2  3.69 0.30
+
 3  16.71 0.50
+
 4  1.87 0.35
+
 5  5.29 1.15
 
 The i-th row provides information of module i, for all i = 1, 2… n.
@@ -54,13 +58,21 @@ More detailed description of parameters.
 1. Parameters
 They are of the following form:
 2.0     (* chipratio *)
+   
 10      (* nmoves *)
+
 0.85    (* ratio *)
+
 -1      (* t0 *)
+
 0.005   (* lambdatf *)
+
 3       (* iseed *)
+
 6       (* n *)
+
 0.99    (* P *)
+
 0.001   (* epsilon *)
 
 chipratio: Final chip ratio must be between 1/chipratio and chipratio; chipratio must be greater than 1.0
