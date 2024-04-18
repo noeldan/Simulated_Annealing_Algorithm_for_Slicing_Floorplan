@@ -1,0 +1,100 @@
+Simulated Annealing for Slicing Floorplan
+------------------------------------------------------
+The program has 2 program files. 
+"Sim-Ann-FP.cpp" and "Sim-Ann-FP.h"
+
+"Sim-Ann-FP" is the executable file.
+
+input_file.txt file contains input node data.
+
+
+
+
+Compiling the program:
+----------------------
+prompt$ g++ -o Sim-Ann-FP Sim-Ann-FP.cpp Sim-Ann-FP.h
+
+The above command compiles the program.
+Output "Sim-Ann-FP" will be created on successful compilation.
+
+(For faster execution purposes the command "g++ Sim-Ann-FP.cpp Sim-Ann-FP.h" can be used.
+In which case "a.out" will be the executable file.)
+
+
+
+
+Executing the program:
+----------------------
+prompt$ ./Sim-Ann-FP
+
+The above command executes the program.
+
+
+
+
+Output:
+--------
+On Execution the output will be displayed as below.
+
+***************************************************
+
+prompt$ ./Sim-Ann-FP 
+
+Enter input File = 
+
+***************************************************
+
+Enter the input file.
+
+
+Output as given should appear
+
+################################################################################
+--------------------------------------------------------------------------------
+
+Enter input File = input_file.txt
+
+
+********************************Topology 1********************************
+
+Initial Topology-1 :- 12V3V4V5V6V7V8V9VaVbVcVdVeVfVgViVjVkVlV
+Inital Area - 287.521
+
+
+Simulated Annealing Process
+----------------------------
+Optimized Topology-1 :- 5fHdi4VHVklH8bHVjea6HVHVc1VHVg293HVHV7V
+Optimized Area - 258.071
+
+**************************************************************************
+
+********************************Topology 2********************************
+
+Topology-2 :- 12H3H4H5H6H7H8H9HaHbHcHdHeHfHgHiHjHkHlH
+Area - 287.521
+
+
+Simulated Annealing Process
+----------------------------
+Optimized Topology-2 :- jaV15cHVH39diHVHVleVH86kH274bgVHVHVHVfV
+Optimized Area - 244.86
+
+**************************************************************************
+
+********************************Topology 3********************************
+
+Topology3  :- 213546H7VHVa8V9HcVHgHibdHkVHfeHVlHVjHVH
+Area - 331.637
+
+
+Simulated Annealing Process
+----------------------------
+Optimized Topology-3 :- 327546jVHVHac9HV18HVHgielHVHkdbHVHVfVHV
+Optimized Area - 272.364
+
+**************************************************************************
+
+--------------------------------------------------------------------------------
+################################################################################
+
+
